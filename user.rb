@@ -21,13 +21,12 @@ class User
 		@meals_eaten -= 1
 	end
 	
-
 	def eat(food_object)
 		if food_object.freshness == "rotten"
 			User.hurl(food_object)
 		else puts food_object.noise
 			@meals_eaten += 1
-		end
+		end 
 	end
 
 	def blend(food_object_01, food_object_02)

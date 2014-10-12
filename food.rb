@@ -12,3 +12,4 @@ class Food
 	end
 
 end
+ 
