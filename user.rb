@@ -40,28 +40,3 @@ class User
 
 
 end
-
-
-
-=begin
-class Food
-	attr_accessor :food_name, :noise
-
-	def initialize(name, noise, eaten)
-		@food_name = food_name
-		@noise     = noise
-		@eaten     = false
-	end
-
-end
-
-sushi = Food.new("Sushi", "Squish!", false)
-
-pizza = Food.new("Food", "NOM NOM NOM", false)
-
-noodles = Food.new("Noodles", "SLURP!", false)
-
-quintin.eat(noodles)
-
-puts "#{quintin.meals_eaten}"
-=end
